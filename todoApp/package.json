@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "superagent": "^2.0.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",
@@ -22,7 +23,10 @@
     "watch": "watchify app/assets/javascripts/app.js -t babelify -o app/assets/javascripts/bundle.js -v"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "keywords": [],
   "author": "",
